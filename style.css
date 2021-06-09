@@ -18,27 +18,27 @@ header {
 }
 
 .portfolio a {
- color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 24px;
-	text-align: center;
-	text-decoration: none;
-	padding-left: 24px;
-	padding-right: 24px;
+  color: #fff;
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 18px;
+	 font-style: normal;
+	 font-weight: 700;
+	 line-height: 24px;
+	 text-align: center;
+	 text-decoration: none;
+	 padding-left: 24px;
+	 padding-right: 24px;
 }
 
 .nav-menu {
-	cursor: pointer;
+	 cursor: pointer;
 }
 
 .links {
- display: flex;
- flex-direction: row;
- padding-left: 0;
- margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-top: 0;
 }
 
 .lists {
@@ -61,36 +61,36 @@ header {
 }
 
 .personal-info h1 {
-	font-family: 'Crete Round', sans-serif;
-	font-style: normal;
-	color: #ff6b00;
-	font-weight: normal;
-	font-size: 56px;
-	line-height: 64px;
-	letter-spacing: 0.37px;
-	margin-bottom: -19px;
-	padding-top: 70px;
+	 font-family: 'Crete Round', sans-serif;
+	 font-style: normal;
+	 color: #ff6b00;
+	 font-weight: normal;
+	 font-size: 56px;
+	 line-height: 64px;
+	 letter-spacing: 0.37px;
+	 margin-bottom: -19px;
+	 padding-top: 70px;
 }
 
 .personal-info h3 {
- font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	color: #fff5e1;
-	line-height: 32px;
-	display: flex;
-	align-items: center;
+  font-family: Roboto, sans-serif;
+	 font-style: normal;
+	 font-weight: bold;
+	 font-size: 24px;
+	 color: #fff5e1;
+	 line-height: 32px;
+	 display: flex;
+	 align-items: center;
 }
 
 .personal-info p {
-	font-family: 'Inter', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	color: #fff;
-	font-size: 16px;
+	 font-family: 'Inter', sans-serif;
+	 font-style: normal;
+	 font-weight: normal;
+	 color: #fff;
+	 font-size: 16px;
   line-height: 24px;
   display: flex;
-	align-items: center;
-	margin-top: -17px;
+	 align-items: center;
+	 margin-top: -17px;
 }
