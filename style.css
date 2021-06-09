@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,16 +18,16 @@ header {
 }
 
 .portfolio a {
-	color: #fff;
-	font-family: 'Roboto',sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 24px;
-	text-align: center;
-	text-decoration: none;
-	padding-left: 24px;
-	padding-right: 24px;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px;
+		text-align: center;
+		text-decoration: none;
+		padding-left: 24px;
+		padding-right: 24px;
 }
 
 .nav-menu {
