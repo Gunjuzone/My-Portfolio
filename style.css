@@ -74,23 +74,23 @@ header {
 
 .personal-info h3 {
   font-family: Roboto, sans-serif;
-	 font-style: normal;
-	 font-weight: bold;
-	 font-size: 24px;
-	 color: #fff5e1;
-	 line-height: 32px;
-	 display: flex;
-	 align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff5e1;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .personal-info p {
-	 font-family: 'Inter', sans-serif;
-	 font-style: normal;
-	 font-weight: normal;
-	 color: #fff;
-	 font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  font-size: 16px;
   line-height: 24px;
   display: flex;
-	 align-items: center;
-	 margin-top: -17px;
+  align-items: center;
+  margin-top: -17px;
 }
