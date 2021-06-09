@@ -18,7 +18,7 @@ header {
 }
 
 .portfolio a {
-	color: #fff;
+ color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-style: normal;
@@ -35,10 +35,10 @@ header {
 }
 
 .links {
-	display: flex;
-	flex-direction: row;
-  padding-left: 0;
-  margin-top: 0;
+ display: flex;
+ flex-direction: row;
+ padding-left: 0;
+ margin-top: 0;
 }
 
 .lists {
@@ -73,7 +73,7 @@ header {
 }
 
 .personal-info h3 {
-  font-family: Roboto, sans-serif;
+ font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
