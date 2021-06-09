@@ -18,16 +18,16 @@ header {
 }
 
 .portfolio a {
-		color: #fff;
-		font-family: 'Roboto', sans-serif;
-		font-size: 18px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: 24px;
-		text-align: center;
-		text-decoration: none;
-		padding-left: 24px;
-		padding-right: 24px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 .nav-menu {
@@ -73,7 +73,7 @@ header {
 }
 
 .personal-info h3 {
-	font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
@@ -89,8 +89,8 @@ header {
 	font-weight: normal;
 	color: #fff;
 	font-size: 16px;
-	line-height: 24px; 
-	display: flex;
+  line-height: 24px;
+  display: flex;
 	align-items: center;
 	margin-top: -17px;
 }
