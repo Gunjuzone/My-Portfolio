@@ -2,7 +2,7 @@
 
 > This project is the mobile versio of my portfolio. It will be  a continous project that will show what I am truly capable of as a developer.
 
-![screenshot](./Images/screencapture.png)
+![screenshot](./Assets/firstpage.PNG)
 
 
 
