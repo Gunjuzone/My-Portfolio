@@ -245,7 +245,6 @@ header {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  line-height: 24px;
   color: #fff;
   padding-right: 22px;
   display: flex;
@@ -267,7 +266,6 @@ header {
 .btn li {
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
-  
 }
 
 .btn-mid .btn-see-project {
