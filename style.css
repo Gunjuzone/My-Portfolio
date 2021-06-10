@@ -201,3 +201,51 @@ header {
   width: 324px;
 }
 
+.multi-post {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  width: 327px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+
+}
+
+.data {
+  background-image: url(Assets/cardbackground.png);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 405px;
+  padding-left: 24px;
+  padding-right: 27px;
+  background-repeat: no-repeat;
+}
+
+.datatext {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.data p {  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 24px; 
+  color: #fff;
+  padding-right: 22px;
+  display: flex;
+  align-items: center;
+  margin-top: -17px;
+}
