@@ -104,18 +104,10 @@ header {
   align-items: center;
   padding-left: 0px;
   margin-top: -7px;
+  margin-left: 12px;
   list-style-type: none;  
   justify-content: flex-start;
   padding-right: 62px;
-}
-
-.horizontal {
-  width: 100%;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #b7d0e2;
-  border: 0 none;
 }
 
 .btn-skills {
@@ -139,7 +131,8 @@ header {
   padding-left: 0px;
   list-style-type: none;  
   justify-content: flex-start;
-  margin-top: -8px;
+  margin-top: -15px;
+  margin-left: 12px;
   }
 
   .btn-project a {
@@ -172,7 +165,6 @@ header {
   }
 
 .works {
-/* height: 3455px; */
   width: 375px;
   left: 0px;
   top: 682px;
@@ -180,12 +172,22 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 12px;
+  padding-left: 0;
 }
 
 .works img {
-  margin: 40px 0;
+  margin: 40px 12px;
 }
+
+.works p {
+  margin-left: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .recent {
   font-family: Crete Round;
   font-style: normal;
@@ -199,6 +201,7 @@ header {
   padding-bottom: 40px;
   border-width: 1px;
   width: 324px;
+  margin-left: 12px;
 }
 
 .multi-post {
@@ -208,6 +211,7 @@ header {
   font-size: 32px;
   line-height: 44px;
   width: 327px;
+  margin-left: 12px;
   height: 36px;
   display: flex;
   align-items: center;
@@ -217,11 +221,12 @@ header {
 
 .data {
   background-image: url(Assets/cardbackground.png);
+  background-size: 375px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 405px;
-  padding-left: 24px;
+  height: 402px;
+  padding-left: 12px;
   padding-right: 27px;
   background-repeat: no-repeat;
 }
@@ -233,7 +238,7 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin-top: 80px;
+  margin-top: 95px;
 }
 
 .data p {  
@@ -247,7 +252,7 @@ header {
   padding-right: 22px;
   display: flex;
   align-items: center;
-  margin-top: -17px;
+  margin: 11px 0px;
 }
 
 .btn {
@@ -273,8 +278,8 @@ header {
   font-family: 'Inter', sans-serif;
   padding: 11px 15px;
   margin-left: -24px;
-  width: 295px;
-  height: 27px;
+  width: 343.5px;
+  height: 28px;
   left: 0px;
   text-align: center;
   
@@ -293,3 +298,74 @@ header {
   .btn-see-project:hover {
     border: 2px solid rgb(118, 209, 216);
   }
+
+  .about-me {
+    background-color: #1c1a19;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 590px;
+    padding-left: 24px;
+    padding-right: 27px;
+    background-image: url(Assets/About.png);
+    background-position-x: 215px;
+    background-position-y: 350px;
+    background-repeat: no-repeat;
+    border-bottom-style: solid;
+    border-bottom-color: green;
+    padding-bottom: 40px;
+    border-width: 5px;
+  }
+  
+  .about-me h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    color: #ff6b00;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    margin-bottom: -19px;
+    padding-top: 70px;
+  }
+  
+  .about-me p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  .btn-see-about {
+    background: #ff6b00;
+    border: 1px solid #8993a4;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 15px;
+    margin: 12px 0;
+  }
+
+  .btn-see-about a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .btn-mid-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0px;
+    list-style-type: none;  
+    justify-content: flex-start;
+    margin-top: 0;
+    margin-left: 0;
+    }
