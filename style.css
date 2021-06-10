@@ -249,3 +249,47 @@ header {
   align-items: center;
   margin-top: -17px;
 }
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  margin-top: -7px;
+  list-style-type: none;  
+  justify-content: flex-start;
+  padding-right: 62px;
+}
+
+.btn li {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  
+}
+
+.btn-mid .btn-see-project {
+  background: #ff6b00;
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
+  padding: 11px 15px;
+  margin-left: -24px;
+  width: 295px;
+  height: 27px;
+  left: 0px;
+  text-align: center;
+  
+}
+
+.btn-see-project a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .btn-see-project:hover {
+    border: 2px solid rgb(118, 209, 216);
+  }
