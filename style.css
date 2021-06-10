@@ -103,7 +103,7 @@ header {
   padding-left: 0;
   margin-top: -7px;
   margin-left: 12px;
-  list-style-type: none; 
+  list-style-type: none;
   justify-content: flex-start;
   padding-right: 62px;
 }
@@ -126,8 +126,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 0px;
-  list-style-type: none;  
+  padding-left: 0;
+  list-style-type: none;
   justify-content: flex-start;
   margin-top: -15px;
   margin-left: 12px;
@@ -136,7 +136,7 @@ header {
 .btn-project a {
   color: #fff;
   text-decoration: none;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -245,7 +245,7 @@ header {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  line-height: 24px; 
+  line-height: 24px;
   color: #fff;
   padding-right: 22px;
   display: flex;
@@ -259,7 +259,7 @@ header {
   align-items: center;
   padding-left: 0;
   margin-top: -7px;
-  list-style-type: none;  
+  list-style-type: none;
   justify-content: flex-start;
   padding-right: 62px;
 }
@@ -279,13 +279,13 @@ header {
   width: 343.5px;
   height: 28px;
   left: 0;
-  text-align: center;  
+  text-align: center;
 }
 
 .btn-see-project a {
   color: #fff;
   text-decoration: none;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -307,7 +307,7 @@ header {
   background-image: url(Assets/About.png);
   background-position-x: 215px;
   background-position-y: 350px;
-  background-repeat: no-repeat;    
+  background-repeat: no-repeat;
 }
 
 .about-me::after {
@@ -330,7 +330,7 @@ header {
   margin-bottom: -19px;
   padding-top: 70px;
 }
-  
+
 .about-me p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -354,7 +354,7 @@ header {
 .btn-see-about a {
   color: #fff;
   text-decoration: none;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -405,7 +405,7 @@ li.light {
   width: 18px;
   height: 18px;
 }
-  
+
 .Rectangle {
   content: url(Assets/Rectangle.png);
   width: 18px;
