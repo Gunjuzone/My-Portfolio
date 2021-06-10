@@ -33,7 +33,6 @@ header {
 .nav-menu {
   cursor: pointer;
   flex: 1;
-
 }
 
 .links {
@@ -101,10 +100,10 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 0px;
+  padding-left: 0;
   margin-top: -7px;
   margin-left: 12px;
-  list-style-type: none;  
+  list-style-type: none; 
   justify-content: flex-start;
   padding-right: 62px;
 }
@@ -166,9 +165,9 @@ header {
 
 .works {
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 682px;
-  border-radius: 0px;
+  border-radius: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -181,7 +180,7 @@ header {
 
 .works p {
   margin-left: 12px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -216,7 +215,6 @@ header {
   display: flex;
   align-items: center;
   margin-top: -20px;
-
 }
 
 .data {
@@ -241,7 +239,7 @@ header {
   margin-top: 95px;
 }
 
-.data p {  
+.data p {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -252,14 +250,14 @@ header {
   padding-right: 22px;
   display: flex;
   align-items: center;
-  margin: 11px 0px;
+  margin: 11px 0;
 }
 
 .btn {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 0px;
+  padding-left: 0;
   margin-top: -7px;
   list-style-type: none;  
   justify-content: flex-start;
@@ -280,7 +278,7 @@ header {
   margin-left: -24px;
   width: 343.5px;
   height: 28px;
-  left: 0px;
+  left: 0;
   text-align: center;  
 }
 
@@ -367,8 +365,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 0px;
-  list-style-type: none;  
+  padding-left: 0;
+  list-style-type: none;
   justify-content: flex-start;
   margin-top: 0;
   margin-left: 0;
@@ -386,7 +384,7 @@ header {
 
 ul.dark {
   list-style-type: none;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -407,13 +405,13 @@ li.light {
   width: 18px;
   height: 18px;
 }
-    
+  
 .Rectangle {
   content: url(Assets/Rectangle.png);
   width: 18px;
   height: 18px;
 }
-    
+
 .Circle {
   content: url(Assets/Circle.png);
   width: 18px;
@@ -428,7 +426,7 @@ li.light {
   list-style: none;
   margin-top: -28px;
 }
-    
+
 .skill-list li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -436,5 +434,3 @@ li.light {
   font-size: 22px;
   margin: 12px 0;
 }
-
-
