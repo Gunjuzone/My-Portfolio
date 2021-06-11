@@ -71,7 +71,7 @@ header {
   line-height: 64px;
   letter-spacing: 0.37px;
   margin-top: 120px;
-  }
+}
 
 .personal-info h3 {
   font-family: Roboto, sans-serif;
@@ -149,7 +149,7 @@ header {
   padding-left: 0;
   list-style-type: none;
   justify-content: flex-start;
-  }
+}
 
 .btn-project a {
   color: #fff;
@@ -195,14 +195,9 @@ header {
   background-repeat: no-repeat;
 }
 
-.works img {
-  margin: 40px 12px;
-}
-
 .multi {
   margin-top: 60px;
 }
-
 
 .works p {
   font-family: Inter, sans-serif;
@@ -228,9 +223,7 @@ header {
   width: 324px;
   margin-left: 24px;
 }
-.works img {
-  background-image: url(Assets/backgroundcard.png);
-}
+
 .backgroundimage {
   background-image: url(Assets/backgroundcard.png);
   background-repeat: no-repeat;
@@ -312,7 +305,6 @@ header {
   width: 363px;
   padding: 14px 15px;
   text-align: center;
-  
 }
 
 .btn-see-project:hover {
