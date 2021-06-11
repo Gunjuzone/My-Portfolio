@@ -173,6 +173,10 @@ header {
   border: 2px solid rgb(118, 209, 216);
 }
 
+.btn-skills-project:hover {
+  border: 2px solid rgb(118, 209, 216);
+}
+
 .btn-see-project {
   background: #ff6b00;
   border: 1px solid #8993a4;
