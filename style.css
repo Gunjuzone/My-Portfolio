@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
 
 * {
-  /* margin: 0; */
+  margin: 0;
   list-style-type: none;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ header {
   display: flex;
   flex-direction: row;
   padding-left: 0;
-  margin-top: 0;
+  margin-top: 12px;
 }
 
 .lists {
@@ -70,9 +70,8 @@ header {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  margin-bottom: -19px;
-  padding-top: 70px;
-}
+  margin-top: 120px;
+  }
 
 .personal-info h3 {
   font-family: Roboto, sans-serif;
@@ -94,7 +93,7 @@ header {
   line-height: 24px;
   display: flex;
   align-items: center;
-  margin-top: -17px;
+  margin-top: 12px;
 }
 
 .buttons {
@@ -103,7 +102,7 @@ header {
   align-items: center;
   padding-left: 0;
   margin-top: -7px;
-  margin-left: 12px;
+  margin-top: 12px;
   list-style-type: none;
   justify-content: flex-start;
   padding-right: 62px;
@@ -123,6 +122,26 @@ header {
   border: 2px solid rgb(118, 209, 216);
 }
 
+.btn-skills-project {
+  background: #ff6b00;
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
+  padding: 10px 15px;
+  margin-top: 14px;
+}
+
+.btn-skls .btn-skills-project {
+  background: #ff6b00;
+  border: 1px solid #8993a4;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 14px 15px;
+  text-align: center;
+}
+
 .btn-mid {
   display: flex;
   flex-direction: row;
@@ -130,9 +149,7 @@ header {
   padding-left: 0;
   list-style-type: none;
   justify-content: flex-start;
-  margin-top: -15px;
-  margin-left: 12px;
-}
+  }
 
 .btn-project a {
   color: #fff;
@@ -161,7 +178,7 @@ header {
   border: 1px solid #8993a4;
   font-family: 'Inter', sans-serif;
   padding: 10px 15px;
-  margin: 12px 0;
+  margin-top: 14px;
 }
 
 .works {
@@ -172,6 +189,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 96px;
   margin-left: 24px;
   background-image: url('./Assets/backgroundcard.png');
   background-repeat: no-repeat;
@@ -182,17 +200,17 @@ header {
 }
 
 .multi {
-  margin-top: 302px;
+  margin-top: 60px;
 }
 
 
 .works p {
-  margin-left: 12px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  margin-right: 55px;
 }
 
 .recent {
@@ -203,12 +221,12 @@ header {
   line-height: 52px;
   display: flex;
   align-items: center;
-  margin-top: 125px;
+  padding-top: 125px;
   border-bottom-style: solid;
   padding-bottom: 40px;
   border-width: 1px;
   width: 324px;
-  margin-left: 12px;
+  margin-left: 24px;
 }
 .works img {
   background-image: url(Assets/backgroundcard.png);
@@ -226,7 +244,6 @@ header {
   font-size: 32px;
   line-height: 44px;
   width: 327px;
-  margin-left: 12px;
   height: 36px;
   display: flex;
   align-items: center;
@@ -239,7 +256,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 402px;
+  height: 403.5px;
   padding-left: 12px;
   padding-right: 27px;
   background-repeat: no-repeat;
@@ -252,7 +269,7 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin-top: 95px;
+  margin-top: 100px;
 }
 
 .data p {
@@ -262,7 +279,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  padding-right: 22px;
+  padding-right: 24px;
   display: flex;
   align-items: center;
   margin: 11px 0;
@@ -287,23 +304,15 @@ header {
 .btn-mid .btn-see-project {
   background: #ff6b00;
   border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
-  padding: 11px 15px;
-  margin-left: -24px;
-  width: 343.5px;
-  height: 28px;
-  left: 0;
-  text-align: center;
-}
-
-.btn-see-project a {
   color: #fff;
-  text-decoration: none;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
-  line-height: 24px;
+  width: 363px;
+  padding: 14px 15px;
+  text-align: center;
+  
 }
 
 .btn-see-project:hover {
@@ -311,6 +320,7 @@ header {
 }
 
 .about-me {
+  margin-top: 120px;
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -341,8 +351,7 @@ header {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  margin-bottom: -19px;
-  padding-top: 70px;
+  margin-top: 120px;
 }
 
 .about-me p {
@@ -357,24 +366,6 @@ header {
   margin-top: 24px;
 }
 
-.btn-see-about {
-  background: #ff6b00;
-  border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
-  padding: 10px 15px;
-  margin: 12px 0;
-}
-
-.btn-see-about a {
-  color: #fff;
-  text-decoration: none;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-}
-
 .btn-mid-about {
   display: flex;
   flex-direction: row;
@@ -386,12 +377,25 @@ header {
   margin-left: 0;
 }
 
+.btn-mid-about .btn-see-about {
+  background: #ff6b00;
+  border: 1px solid #8993a4;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 14px 15px;
+  margin-top: 24px;
+  text-align: center;
+}
+
 .card-experience {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1200px;
+  height: 1100px;
   background-color: #1c1a19;
   padding-left: 0;
 }
