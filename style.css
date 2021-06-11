@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Roboto&display=swap');
 
 * {
+  /* margin: 0; */
   list-style-type: none;
   text-decoration: none;
 }
@@ -171,12 +172,19 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 0;
+  margin-left: 24px;
+  background-image: url('./Assets/backgroundcard.png');
+  background-repeat: no-repeat;
 }
 
 .works img {
   margin: 40px 12px;
 }
+
+.multi {
+  margin-top: 302px;
+}
+
 
 .works p {
   margin-left: 12px;
@@ -202,8 +210,16 @@ header {
   width: 324px;
   margin-left: 12px;
 }
+.works img {
+  background-image: url(Assets/backgroundcard.png);
+}
+.backgroundimage {
+  background-image: url(Assets/backgroundcard.png);
+  background-repeat: no-repeat;
+}
 
 .multi-post {
+
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -214,7 +230,7 @@ header {
   height: 36px;
   display: flex;
   align-items: center;
-  margin-top: -20px;
+  margin-top: 200px;
 }
 
 .data {
