@@ -448,3 +448,21 @@ li.light {
   font-size: 22px;
   margin: 12px 0;
 }
+
+.form-footer {
+  height: 844px;
+  width: 375px;
+  left: 0px;
+  padding: 120px, 24px, 120px, 24px;
+}
+
+.form-description {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  margin: 24px 0px;
+}
