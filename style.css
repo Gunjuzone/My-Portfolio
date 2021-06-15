@@ -460,7 +460,7 @@ li.light {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  line-height: 44px; 
+  line-height: 44px;
 }
 
 .form-description h2 {
@@ -472,11 +472,7 @@ li.light {
   padding-bottom: 73px;
   text-align: center;
   padding-left: 24px;
-  padding-right: 24px;  
-}
-
-form ul .name {
-  margin-top: 44px;
+  padding-right: 24px;
 }
 
 .name {
@@ -485,9 +481,9 @@ form ul .name {
   justify-content: center;
   color: #979493;
   height: 18px;
-  border-bottom: 1px solid #dbd8d7; 
+  border-bottom: 1px solid #dbd8d7;
   margin-bottom: 24px;
-    
+  margin-top: 44px;  
 }
 
 .name input {
@@ -500,11 +496,11 @@ form ul .name {
 .name input::placeholder {
   color: #979493;
   opacity: 0.8;
-  font-family: Inter;
-  font-style: 400;
-  font-weight: 15px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   line-height: 24px;
-} 
+}
 
 .text textarea {
   border: none;
@@ -514,7 +510,7 @@ form ul .name {
   margin-bottom: 24px;
 }
 
-.text textarea:hover{
+.text textarea:hover {
   border: 1.5px solid #18a0fb;
 }
 
@@ -561,7 +557,7 @@ form ul .name {
   height: 72px;
   width: 100%;
   border-top: 1px solid #dfe1e6;
-  margin-bottom: 8px;  
+  margin-bottom: 8px; 
 }
 
 .footer-links ul {
