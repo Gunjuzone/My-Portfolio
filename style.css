@@ -505,9 +505,10 @@ li.light {
 .text textarea {
   border: none;
   background-color: #fbf8f7;
-  width: 327px;
+  width: 310.5px;
   height: 114px;
   margin-bottom: 24px;
+  padding: 12px;
 }
 
 .text textarea:hover {
@@ -554,7 +555,7 @@ li.light {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 72px;
+  height: 81px;
   width: 100%;
   border-top: 1px solid #dfe1e6;
   margin-bottom: 8px;
