@@ -475,12 +475,17 @@ li.light {
   padding-right: 24px;
 }
 
+.form-section {
+  padding-left: 24px;
+}
+
 .name {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #979493;
   height: 18px;
+  width: 327px;
   border-bottom: 1px solid #dbd8d7;
   margin-bottom: 24px;
   margin-top: 44px;
@@ -505,13 +510,9 @@ li.light {
 .text textarea {
   border: none;
   background-color: #fbf8f7;
-  width: 310.5px;
+  width: 327px;
   height: 114px;
   margin-bottom: 24px;
-}
-
-.text textarea::placeholder {
-  padding: 12px;
 }
 
 .text textarea:hover {
@@ -524,6 +525,7 @@ li.light {
   font-weight: normal;
   color: #3c3a39;
   opacity: 1;
+  padding: 12px;
 }
 
 .button-submit {
@@ -570,10 +572,11 @@ li.light {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   color: #505f79;
   margin-top: 24px;
+  margin-right: 36px;
   padding-bottom: 13px;
 }
 
@@ -584,5 +587,4 @@ li.light {
   position: relative;
   background-color: #0d151e;
   border-radius: 10px;
-  margin-left: 40px;
 }
