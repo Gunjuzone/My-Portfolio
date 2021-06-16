@@ -508,6 +508,9 @@ li.light {
   width: 310.5px;
   height: 114px;
   margin-bottom: 24px;
+}
+
+.text textarea::placeholder {
   padding: 12px;
 }
 
