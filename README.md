@@ -2,7 +2,7 @@
 
 > This project is the mobile versio of my portfolio. It will be  a continous project that will show what I am truly capable of as a developer.
 
-![screenshot](Assets/Screenshot.JPG)
+![screenshot](Assets/Desktopscreen.png)
 
 
 
@@ -27,6 +27,7 @@ https://gunjuzone.github.io/My-Portfolio/
 
 ## Acknowledgments
 Rhyine Stewart
+Abimbola Buari
 
 Figma (Microverse Student Project)
 
