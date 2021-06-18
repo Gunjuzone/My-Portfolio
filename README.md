@@ -2,7 +2,7 @@
 
 > This project is the mobile version of my portfolio. It will be constntly developed to show, from time to time what I am capable of as a developer.
 
-![screenshot](Desktopscreen.png)
+![screenshot](https://github.com/Gunjuzone/My-Portfolio/blob/desktop-feature/Assets/Desktopscreen.png)
 
 
 
