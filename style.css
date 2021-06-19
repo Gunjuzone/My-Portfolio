@@ -203,6 +203,9 @@ body {
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   font-size: 30px;
   line-height: 52px;
   text-align: center;
@@ -267,8 +270,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-top: 24px;
   padding-left: 0;
-  margin-top: -7px;
   list-style-type: none;
   justify-content: space-between;
 }
@@ -314,7 +317,7 @@ body {
   position: relative;
   padding-right: 27px;
   background-image: url(Assets/About.png);
-  background-position: right bottom 1%;
+  background-position: right bottom 7%;
   background-repeat: no-repeat;
 }
 
@@ -346,6 +349,7 @@ body {
   line-height: 24px;
   display: flex;
   align-items: center;
+  margin-bottom: 24px;
   margin-top: 24px;
 }
 
@@ -360,6 +364,10 @@ body {
   margin-left: 0;
 }
 
+.btn-mid-about:hover {
+  border: 2px solid rgb(118, 209, 216);
+}
+
 .btn-mid-about .btn-see-about {
   background: #ff6b00;
   border: 1px solid #8993a4;
@@ -369,7 +377,6 @@ body {
   font-weight: bold;
   font-size: 17px;
   padding: 14px 15px;
-  margin-top: 24px;
   text-align: center;
 }
 
@@ -438,6 +445,7 @@ body {
 .form-footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 100%;
   padding: 120px 24px;
 }
@@ -517,7 +525,7 @@ body {
   margin-bottom: 120px;
 }
 
-.button-submit button:hover {
+.button-submit:hover {
   color: #fff5e1;
   border: 1.5px solid #18a0fb;
   transition: 0.4s;
@@ -628,8 +636,23 @@ body {
     background: #1c1a19;
     background-image: url(Assets/firstbackground.png);
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: 400px;
     background-position: right top;
+  }
+
+  .personal-info h1 {
+    font-size: 56px;
+    line-height: 61px;
+  }
+
+  .personal-info h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .personal-info p {
+    font-size: 18px;
+    line-height: 28px;
   }
 
   .links {
@@ -654,8 +677,20 @@ body {
   }
 
   .recent-header {
-    width: 55%;
-    font-size: 40px;
+    width: 100%;
+    font-size: 38px;
+    border-bottom: none;
+  }
+
+  .recent-header::after {
+    content: "";
+    display: inline-flex;
+    margin: 30px 20px;
+    width: 60%;
+    border: solid #212121;
+    border-width: 1px 0 0 0;
+    box-sizing: border-box;
+    padding-right: 24px;
   }
 
   .works {
@@ -671,8 +706,8 @@ body {
   }
 
   .works > img {
-    width: 47%;
-    padding-left: 12px;
+    width: 54%;
+    padding-left: 24px;
     margin: 0;
   }
 
@@ -686,6 +721,10 @@ body {
     line-height: 50px;
   }
 
+  .btn {
+    padding-bottom: 19px;
+  }
+
   .btn-skills,
   .btn-pro {
     font-size: 20px;
@@ -696,10 +735,17 @@ body {
   }
 
   .data {
-    width: 48%;
+    width: 43%;
     background-image: url(Assets/desktop.jfif);
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: space-evenly;
+    height: 435.5px;
+    margin: 24px;
+  }
+
+  .hide {
+    visibility: hidden;
   }
 
   .skills-grid {
@@ -709,9 +755,13 @@ body {
 
   .about-me {
     background-image: url(Assets/Frame.png);
-    background-position: right bottom 1%;
+    background-position: right bottom 12%;
     background-size: 400px;
     margin-top: 50px;
+  }
+
+  .about-me p {
+    margin-bottom: 34px;
   }
 
   .soft-dev {
@@ -743,12 +793,15 @@ body {
     padding: 120px 24px 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .form-description {
-    width: 45%;
+    width: 33%;
     text-align: start;
+    font-size: 36px;
+    line-height: 44px;
+    padding-right: 40px;
   }
 
   form {
@@ -756,23 +809,44 @@ body {
   }
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 1024px) {
   .personal-info {
-    background-size: 400px;
-    background-position: right top;
+    background-image: url(Assets/firstbackground.png);
+    background-size: 600px;
   }
 
-  .brief-intro {
-    margin-left: 6%;
-    width: 50%;
+  .personal-info h1 {
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .personal-info h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .personal-info p {
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .data {
-    width: 31%;
+    width: 30%;
+    margin: 12px;
+    padding: 12px;
+  }
+
+  .datatext {
+    padding-top: 4em;
+  }
+
+  .conceal {
+    visibility: hidden;
   }
 
   .skills-grid {
     padding: 0 30px;
+    margin-left: 12px;
   }
 
   .btn-pro {
@@ -788,7 +862,7 @@ body {
     background-position-y: center;
     background-size: 500px;
     padding-top: 60px;
-    padding-left: 114px;
+    padding-left: 55px;
     margin-top: 50px;
   }
 
@@ -796,7 +870,8 @@ body {
     line-height: 32px;
   }
 
-  .btn-mid-about .btn-see-about {
-    margin-top: 30px;
+  .form-description {
+    font-size: 40px;
+    line-height: 52px;
   }
 }
