@@ -736,7 +736,7 @@ body {
 
   .data {
     width: 43%;
-    background-image: url(Assets/desktop.jfif);
+    background-image: url(Assets/cardbackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-evenly;
@@ -758,6 +758,7 @@ body {
     background-position: right bottom 12%;
     background-size: 400px;
     margin-top: 50px;
+    padding-left: 54px;
   }
 
   .about-me p {
@@ -809,7 +810,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 991px) {
   .personal-info {
     background-image: url(Assets/firstbackground.png);
     background-size: 600px;
@@ -859,10 +860,10 @@ body {
 
   .about-me {
     background-position-x: right;
-    background-position-y: center;
+    background-position-y: 65%;
     background-size: 500px;
     padding-top: 60px;
-    padding-left: 55px;
+    padding-left: 90px;
     margin-top: 50px;
   }
 
