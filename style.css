@@ -46,12 +46,12 @@ body {
 .links {
   display: flex;
   flex-direction: row;
-}
+ }
 
 .lists {
   list-style: none;
   margin: 20px 10px;
-}
+ }
 
 .personal-info {
   background-color: #1c1a19;
@@ -73,6 +73,7 @@ body {
   font-size: 44px;
   line-height: 54px;
   letter-spacing: 0.37px;
+  transition: all 1s repeat;
 }
 
 .personal-info h3 {
@@ -84,6 +85,7 @@ body {
   line-height: 32px;
   display: flex;
   align-items: center;
+  transition: all 1s linear;
 }
 
 .personal-info p {
@@ -115,6 +117,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   padding: 10px;
+  transition: 1s, 0.3s, 1s;
 }
 
 .btn-pro {
@@ -124,6 +127,8 @@ body {
 .btn-skills:hover,
 .btn-pro:hover {
   border: 2px solid rgb(118, 209, 216);
+  background: #505f79;
+  transform: rotate(360deg);
 }
 
 .btn-skls .btn-skills-project {
@@ -181,6 +186,12 @@ body {
 
 .works > img {
   margin: 24px 0;
+}
+
+.works > img:hover {
+  margin: 24px 0;
+  transition: 0.6s ease-in-out;
+  transform: scale(1.04);
 }
 
 .multi {
@@ -244,13 +255,18 @@ body {
   padding-top: 50px;
 }
 
+.data:hover {
+  transition: 0.6s ease-in-out;
+  transform: scale(1.04);
+}
+
 .datatext {
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: #fff;  
 }
 
 .data p {
@@ -300,6 +316,8 @@ body {
   text-align: center;
   margin-top: 14px;
   margin-left: -12px;
+  transition: background-position 2s;
+  transition: all 1s ease-in;
 }
 
 .btn-see-project:hover {
@@ -362,10 +380,14 @@ body {
   justify-content: flex-start;
   margin-top: 0;
   margin-left: 0;
+  transition: 1s, 0.3s, 1s;
+
 }
 
 .btn-mid-about:hover {
   border: 2px solid rgb(118, 209, 216);
+  background: #fbf8f7;
+  transform: rotate(360deg);
 }
 
 .btn-mid-about .btn-see-about {
