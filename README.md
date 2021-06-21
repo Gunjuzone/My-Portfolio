@@ -32,6 +32,3 @@ https://gunjuzone.github.io/My-Portfolio/
 - Figma (Microverse Student Project)
 - Rhyine Stewart (For his contribution during mobile version)
 - Abimbola Buari (For her contribution during desktop version)
-
-
-
