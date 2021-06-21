@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 
 ## Live Demo
-https://gunjuzone.github.io/My-Portfolio/
+https://gunjuzone.github.io/My-Portfolio
 
 ## Author
 
@@ -32,6 +32,3 @@ https://gunjuzone.github.io/My-Portfolio/
 - Figma (Microverse Student Project)
 - Rhyine Stewart (For his contribution during mobile version)
 - Abimbola Buari (For her contribution during desktop version)
-
-
-
