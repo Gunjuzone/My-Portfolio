@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 
 ## Live Demo
-https://gunjuzone.github.io/My-Portfolio
+https://gunjuzone.github.io/My-Portfolio/
 
 ## Author
 
