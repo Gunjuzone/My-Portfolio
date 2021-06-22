@@ -269,7 +269,6 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  background-color: #9e9e9e26;
 }
 
 .data p {
@@ -297,11 +296,13 @@ body {
 
 .space {
   margin-left: 0;
+  background-color: #fff;
 }
 
 .btn li {
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
+  background-color: #70420c;
 }
 
 .btn-see-project {
@@ -354,7 +355,7 @@ body {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   color: #ff6b00;
-  background-color: #000;
+  background-color: #1c1a19;
   font-weight: normal;
   font-size: 56px;
   line-height: 64px;
@@ -640,7 +641,7 @@ body {
 
   .about-me h2 {
     font-size: 64px;
-    background-color: #000;
+    background-color: #1c1a19;
   }
 
   .about-me p {
