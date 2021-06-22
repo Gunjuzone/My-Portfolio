@@ -75,7 +75,7 @@ body {
   letter-spacing: 0.37px;
 }
 
-.personal-info h3 {
+.personal-info h2 {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -131,7 +131,7 @@ body {
 }
 
 .btn-skls .btn-skills-project {
-  background: #ff6b00;
+  background: #9b4203;
   border: 1px solid #8993a4;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -301,7 +301,7 @@ body {
 }
 
 .btn-see-project {
-  background: #ff6b00;
+  background: #9b4203;
   border: 1px solid #8993a4;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -389,7 +389,7 @@ body {
 }
 
 .btn-mid-about .btn-see-about {
-  background: #ff6b00;
+  background: #9b4203;
   border: 1px solid #8993a4;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -532,7 +532,7 @@ body {
 .button-submit {
   display: flex;
   justify-content: center;
-  background-color: #ff6b00;
+  background-color: #9b4203;
   padding: 12px;
   color: #fff;
   letter-spacing: 0.03em;
@@ -607,7 +607,7 @@ body {
     letter-spacing: 0.47px;
   }
 
-  .personal-info h3 {
+  .personal-info h2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
@@ -665,7 +665,7 @@ body {
     line-height: 61px;
   }
 
-  .personal-info h3 {
+  .personal-info h2 {
     font-size: 26px;
     line-height: 36px;
   }
@@ -841,7 +841,7 @@ body {
     line-height: 81px;
   }
 
-  .personal-info h3 {
+  .personal-info h2 {
     font-size: 32px;
     line-height: 44px;
   }
