@@ -4,8 +4,6 @@
 
 ![screenshot](https://github.com/Gunjuzone/My-Portfolio/blob/desktop-feature/Assets/Screenshot.JPG)
 
-![screenshot](https://github.com/Gunjuzone/My-Portfolio/blob/desktop-feature/Assets/screencapture.png)
-
 
 
 Additional description about the project and its features.
