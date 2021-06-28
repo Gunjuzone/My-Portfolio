@@ -12,7 +12,7 @@ body {
   width: 100%;
 }
 
-.portfolio {
+.nav-list {
   background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@ body {
   height: 7vh;
 }
 
-.portfolio a {
+.nav-list a {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -586,13 +586,14 @@ body {
 @media only screen and (min-width: 600px) {
   .nav-menu {
     display: flex;
+    justify-content: flex-end
   }
 
   .icon-menu {
     display: none;
   }
 
-  .portfolio {
+  .nav-list {
     background-color: #3c3a39;
     display: flex;
     justify-content: space-between;
@@ -655,7 +656,7 @@ body {
 }
 
 @media only screen and (min-width: 767px) {
-  .portfolio {
+  .nav-list {
     height: 8vh;
   }
 
