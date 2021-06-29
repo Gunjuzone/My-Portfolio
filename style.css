@@ -81,7 +81,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 100vh;
+  height: 93vh;
   padding: 120px 24px;
   background-image: url(Assets/Background.png);
   background-position: right bottom -49%;
@@ -369,7 +369,7 @@ body {
 
 .nav-response > ul > li:first-child {
   border-bottom: none;
-  margin-left: 80%;
+  padding-left: 88%;
 }
 
 .about-me {
