@@ -372,6 +372,87 @@ body {
   padding-left: 88%;
 }
 
+/* Pop Window starts here */
+.modal {
+  position: relative;
+  height: 100vh;
+}
+
+.displayModal {
+ visibility: hidden;
+}
+
+.pop-up {
+  display: flex;
+  height: 94vh;
+  /* top: -100vh; */
+  flex-direction: column;
+  position: relative;
+  background-color: #507951;
+}
+
+.pop-up-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-bottom: 5px;
+}
+
+.pop-up-close {
+  font-size: 22px;
+  /* position: absolute; */
+  right: 1%;
+  top: 2%;
+  color: #172b4d;
+}
+
+.pop-up-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+  max-width: 265px;
+}
+
+.pop-up-skls {
+  border: 1px solid #dfe1e6;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+
+.pop-up-background {
+  height: 45%;
+}
+
+.pop-up-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: #344563;
+}
+
+.pop-up-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.pop-up-btn {
+  padding: 10px;
+  background: #ff6b00;
+  width: 47%;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* Pop up window ends here */
+
 .about-me {
   margin-top: 120px;
   background-color: #1c1a19;
