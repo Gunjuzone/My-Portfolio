@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shakur's Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
   <header>
@@ -24,7 +23,7 @@
       <a href="#">Shakur</a>
     </div>
     <div>
-      <a class="icon-menu" aria-label="icon-menu" href="#"><img src="Assets/Icon-Menu.png" alt=""></a>
+      <a class="icon-menu" aria-label="icon-menu" href="#"><img src="Assets/Icon-Menu.png" alt="" onclick="openMenu()"></a>
     </div>
         <ul class="nav-menu">
           <li><a href="#recent">Portfolio</a></li>
@@ -35,7 +34,7 @@
 			</nav>
       <div class="nav-response">
         <ul>
-          <li class="nav-close"><a href="#">X</a></li> 
+          <li class="nav-close"><a href="#" onclick="closeMenu()">X</a></li> 
           <li><a href="#recent">Portfolio</a></li>
           <li><a href="#about_me">About</a></li>
           <li><a href="#form-footer">Contact</a></li>
@@ -281,6 +280,6 @@
         <li class="footer-link"><a href="#"> <img src="Assets/Mediumm.png" alt="Medium Icon"></a></li>
       </ul>
       </footer>
-  <script type="text/javascript" src="index.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
