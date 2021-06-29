@@ -42,7 +42,7 @@ body {
 .nav-response {
   position: absolute;
   visibility: hidden;
-  height: 100vh;
+  height: 108vh;
   top: 0;
   width: 100vw;
   background-color: #3c3a39;
@@ -54,33 +54,12 @@ body {
   padding: 20px;
 }
 
-.nav-response > ul > li > a {
-  font-family: Poppins, sans-serif;
-  width: 100%;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  text-decoration: none;
-  color: #fff;
-}
-
-.nav-response > ul > li {
-  width: 99%;
-  padding: 20px 0 10px 15px;
-  border-bottom: 1px solid grey;
-}
-
 .nav-close {
   border: none;
   background-color: #3c3a39;
   font-size: 35px;
   font-weight: normal;
   color: grey;
-}
-.nav-response > ul > li:first-child
-{
-  border-bottom: none;
-  margin-left: 80%;
 }
 
 .nav-list > * {
@@ -370,6 +349,27 @@ body {
 
 .btn-see-project:hover {
   border: 2px solid rgb(118, 209, 216);
+}
+
+.nav-response > ul > li {
+  width: 99%;
+  padding: 20px 0 10px 15px;
+  border-bottom: 1px solid grey;
+}
+
+.nav-response > ul > li > a {
+  font-family: Poppins, sans-serif;
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-response > ul > li:first-child {
+  border-bottom: none;
+  margin-left: 80%;
 }
 
 .about-me {
