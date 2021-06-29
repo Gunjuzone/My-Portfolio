@@ -7,3 +7,6 @@ function openMenu() {
 function closeMenu() {
   sideMenu.style.visibility = 'hidden';
 }
+
+openMenu();
+closeMenu();
