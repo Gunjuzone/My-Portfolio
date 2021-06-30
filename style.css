@@ -372,6 +372,96 @@ body {
   padding-left: 88%;
 }
 
+.modal {
+  position: absolute;
+  height: 100vh;
+}
+
+.displayModal {
+  visibility: hidden;
+}
+
+.pop-up {
+  position: fixed;
+  z-index: 2;
+  padding: 10px;
+  top: 3%;
+  left: 11%;
+  width: 80%;
+  height: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 8px rgb(45 45 45);
+}
+
+.pop-up-container {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.pop-up-heading {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-bottom: 5px;
+}
+
+.pop-up-close {
+  font-size: 22px;
+  position: absolute;
+  right: 16%;
+  top: 5%;
+  color: #172b4d;
+}
+
+.pop-up-skills {
+  display: flex;
+  justify-content: space-between;
+  width: 83%;
+  max-width: 265px;
+}
+
+.pop-up-skls {
+  border: 1px solid #dfe1e6;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+
+.pop-up-background {
+  height: 45%;
+}
+
+.pop-up-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.pop-up-button {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+
+.pop-up-btn {
+  padding: 10px;
+  background: #ff6b00;
+  width: 47%;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .about-me {
   margin-top: 120px;
   background-color: #1c1a19;
@@ -697,6 +787,10 @@ body {
   .form-footer {
     padding: 50px 50px 120px;
   }
+
+  .pop-up-right {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 767px) {
@@ -794,7 +888,7 @@ body {
   }
 
   .btn {
-    padding-bottom: 19px;
+    padding-bottom: 94px;
   }
 
   .btn-skills,
@@ -880,6 +974,26 @@ body {
 
   form {
     width: 50%;
+  }
+
+  .pop-up {
+    padding: 10px;
+    top: 8%;
+    left: 11%;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 8px rgb(45 45 45);
+  }
+
+  .pop-up-container {
+    flex-direction: row;
+  }
+
+  .pop-up-background {
+    height: 75%;
+    width: 65%;
   }
 }
 
