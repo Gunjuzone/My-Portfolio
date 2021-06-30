@@ -382,15 +382,16 @@ body {
 }
 
 .pop-up {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  position: absolute;
-  background-color: #fff;
-  align-items: center;
-  padding: 16px;
+  position: fixed;
   z-index: 2;
-  box-shadow: 0 4px 8px 10px rgb(45, 45, 45);
+  padding: 10px;
+  top: 3%;
+  left: 11%;
+  width: 80%;
+  height: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 8px rgb(45 45 45);
 }
 
 .pop-up-container {
@@ -887,7 +888,7 @@ body {
   }
 
   .btn {
-    padding-bottom: 19px;
+    padding-bottom: 94px;
   }
 
   .btn-skills,
@@ -976,8 +977,14 @@ body {
   }
 
   .pop-up {
-    width: 85vw;
-    margin-left: 24px;
+    padding: 10px;
+    top: 8%;
+    left: 11%;
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 8px rgb(45 45 45);
   }
 
   .pop-up-container {
@@ -985,7 +992,8 @@ body {
   }
 
   .pop-up-background {
-    height: 55%;
+    height: 75%;
+    width: 65%;
   }
 }
 
