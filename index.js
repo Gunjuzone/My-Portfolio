@@ -12,9 +12,13 @@ openMenu();
 closeMenu();
 
 const modalBtn = document.querySelector(".modal-btn")
+
 const data = document.querySelector(".modal")
+
 const dataValue = document.createElement("div")
+
 dataValue.classList.add("pop-up")
+
 dataValue.innerHTML = `
 <h3 class="pop-up-heading">Multi Post Story</h3>
 <i class="fa fa-times-circle pop-up-close"></i>
@@ -34,7 +38,12 @@ dataValue.innerHTML = `
     <a href="#" class="pop-up-btn">Sourcelink<i class="fa fa-github"></i></a>
   </div>`
 data.appendChild(dataValue);
-modalBtn.addEventListener("click", function(){
-dataValue.classList.toggle("displayModal")
 
+const popClose = document.querySelector(".pop-up-close")
+popClose.addEventListener("click", function(){
+  dataValue.classList.add("displayModal")
+});
+
+modalBtn.addEventListener("click", function(){  
+dataValue.classList.remove("displayModal")
 });

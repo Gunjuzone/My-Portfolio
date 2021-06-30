@@ -374,7 +374,7 @@ body {
 
 /* Pop Window starts here */
 .modal {
-  position: relative;
+  position: absolute;
   height: 100vh;
 }
 
@@ -385,10 +385,13 @@ body {
 .pop-up {
   display: flex;
   height: 94vh;
-  /* top: -100vh; */
   flex-direction: column;
-  position: relative;
-  background-color: #507951;
+  position: absolute;
+  background-color: #fff;
+  align-items: center;
+  padding: 16px;
+  z-index: 1;
+  margin-left: 16px;
 }
 
 .pop-up-heading {
@@ -402,9 +405,9 @@ body {
 
 .pop-up-close {
   font-size: 22px;
-  /* position: absolute; */
-  right: 1%;
-  top: 2%;
+  position: absolute;
+  right: 16%;
+  top: 5%;
   color: #172b4d;
 }
 
@@ -429,8 +432,9 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 24px;
   color: #344563;
+  margin: 12px 0;
 }
 
 .pop-up-button {
