@@ -11,9 +11,7 @@ function closeMenu() {
 openMenu();
 closeMenu();
 
-// Modal Functionality
-
-data = [
+const data = [
   {
     id: 1,
     title: 'Multi Post Stories',
@@ -62,26 +60,24 @@ data = [
     livelink: 'https://gunjuzone.github.io/My-Portfolio/',
     sourcelink: 'https://github.com/Gunjuzone/My-Portfolio',
   },
-]
+];
 
 const modal = document.querySelector('.modal');
 const dataValue = document.createElement('div');
 const modalBtns = document.querySelectorAll('.modal-btn');
 
-modalBtns.forEach((modalBtn) => {
-  modalBtn.addEventListener('click', openModal)
-});
-
 function closeModal() {
-  modal.removeChild(dataValue)
+  modal.removeChild(dataValue);
 }
 
 function openModal(e) {
-  let num = (e.target.getAttribute('data-id').slice(2)) - 1;
-  const {title, skills, livelink, sourcelink, info} = data[num]
+  const num = (e.target.getAttribute('data-id').slice(2)) - 1;
+  const {
+    title, skills, livelink, sourcelink, info,
+  } = data[num];
 
   dataValue.classList.add('pop-up');
-  
+
   dataValue.innerHTML = `
   <h3 class="pop-up-heading">${title}</h3>
   <i class="fa fa-times-circle pop-up-close"></i>
@@ -100,8 +96,11 @@ function openModal(e) {
       </div>
       </div>
       </div>`;
-    modal.appendChild(dataValue);
+  modal.appendChild(dataValue);
 
-    const popClose = document.querySelector('.pop-up-close');
-    popClose.addEventListener('click', closeModal);
+  const popClose = document.querySelector('.pop-up-close');
+  popClose.addEventListener('click', closeModal);
 }
+modalBtns.forEach((modalBtn) => {
+  modalBtn.addEventListener('click', openModal);
+});
