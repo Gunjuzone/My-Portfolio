@@ -27,7 +27,9 @@ dataValue.innerHTML = `
   <li class="pop-up-skls">CSS</li>
   <li class="pop-up-skls">Ruby on Rails</li>
 </ul>
+<div class="pop-up-container">
 <img src="Assets/Snapshoot Portfolio.png" class="pop-up-background" alt="Pop-up Image">
+<div class="pop-up-right">
 <p class="pop-up-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
    when an unknown printer took a galley of type and scrambled it to make a type 
@@ -36,7 +38,9 @@ dataValue.innerHTML = `
   <div class="pop-up-button">
     <a href="#" class="pop-up-btn">Livelink<i class="fa fa-arrow-circle-down"></i></a>
     <a href="#" class="pop-up-btn">Sourcelink<i class="fa fa-github"></i></a>
-  </div>`
+    </div>
+    </div>
+    </div>`
 data.appendChild(dataValue);
 
 const popClose = document.querySelector(".pop-up-close")

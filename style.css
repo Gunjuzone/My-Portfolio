@@ -372,7 +372,6 @@ body {
   padding-left: 88%;
 }
 
-/* Pop Window starts here */
 .modal {
   position: absolute;
   height: 100vh;
@@ -384,14 +383,20 @@ body {
 
 .pop-up {
   display: flex;
-  height: 94vh;
+  height: 100vh;
   flex-direction: column;
   position: absolute;
   background-color: #fff;
   align-items: center;
   padding: 16px;
-  z-index: 1;
-  margin-left: 16px;
+  z-index: 2;
+  box-shadow: 0 4px 8px 10px rgb(45, 45, 45);
+}
+
+.pop-up-container {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
 }
 
 .pop-up-heading {
@@ -455,7 +460,6 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-/* Pop up window ends here */
 
 .about-me {
   margin-top: 120px;
@@ -782,6 +786,10 @@ body {
   .form-footer {
     padding: 50px 50px 120px;
   }
+
+  .pop-up-right {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 767px) {
@@ -965,6 +973,19 @@ body {
 
   form {
     width: 50%;
+  }
+
+  .pop-up {
+    width: 85vw;
+    margin-left: 24px;
+  }
+
+  .pop-up-container {
+    flex-direction: row;
+  }
+
+  .pop-up-background {
+    height: 55%;
   }
 }
 
