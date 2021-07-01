@@ -122,28 +122,22 @@ const form = document.getElementById('form');
 const userName = document.getElementById('name');
 const mail = document.getElementById('email');
 const msg = document.getElementById('message');
-
-function newData() {
-  const formData = {
-    userName: userName.value,
+function updateValue() {
+  const formObject = {
+    name: userName.value,
     mail: mail.value,
     msg: msg.value,
   };
-
-  localStorage.setItem('formData', JSON.stringify(formData));
+  localStorage.setItem('formObject', JSON.stringify(formObject));
 }
-
-form.addEventListener('input', newData);
-
-const storeData = JSON.parse(localStorage.getItem('formData'));
-
+form.addEventListener('input', updateValue);
+const thisObject = JSON.parse(localStorage.getItem('formObject'));
 if (localStorage.getItem('theObject.name') !== '') {
-  userName.value = storeData.name;
+  userName.value = thisObject.name;
 }
 if (localStorage.getItem('theObject.email') !== '') {
-  mail.value = storeData.email;
+  mail.value = thisObject.mail;
 }
 if (localStorage.getItem('theObject.message') !== '') {
-  msg.value = storeData.msg;
+  msg.value = thisObject.msg;
 }
-
