@@ -20,6 +20,7 @@ body {
   height: 7vh;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-list a {
