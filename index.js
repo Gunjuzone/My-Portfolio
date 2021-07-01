@@ -137,3 +137,13 @@ form.addEventListener('input', newData);
 
 const storeData = JSON.parse(localStorage.getItem('formData'));
 
+if (localStorage.getItem('theObject.name') !== '') {
+  userName.value = storeData.name;
+}
+if (localStorage.getItem('theObject.email') !== '') {
+  mail.value = storeData.email;
+}
+if (localStorage.getItem('theObject.message') !== '') {
+  msg.value = storeData.msg;
+}
+
