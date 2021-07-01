@@ -104,3 +104,16 @@ function openModal(e) {
 modalBtns.forEach((modalBtn) => {
   modalBtn.addEventListener('click', openModal);
 });
+
+const regularExpression = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/;
+const emailField = document.querySelector('#mail');
+const getInTouch = document.querySelector('.button-submit');
+
+getInTouch.addEventListener('click', () => {
+  const validatedMail = emailField.value;
+  if (!regularExpression.test(validatedMail)) {
+    getInTouch.setCustomValidity('Email should be in lowercase. Please input the email in lowercase!');
+  } else {
+    getInTouch.setCustomValidity('');
+  }
+});
