@@ -112,8 +112,8 @@ const getInTouch = document.querySelector('.button-submit');
 getInTouch.addEventListener('click', () => {
   const validatedMail = emailField.value;
   if (!regularExpression.test(validatedMail)) {
-    emailField.setCustomValidity('Email should be in lowercase. Please input the email in lowercase!');
+    getInTouch.setCustomValidity('Email should be in lowercase. Please input the email in lowercase!');
   } else {
-    emailField.setCustomValidity('');
+    getInTouch.setCustomValidity('');
   }
 });
