@@ -18,6 +18,8 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 7vh;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-list a {
