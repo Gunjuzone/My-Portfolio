@@ -117,3 +117,23 @@ getInTouch.addEventListener('click', () => {
     getInTouch.setCustomValidity('');
   }
 });
+
+const form = document.getElementById('form');
+const userName = document.getElementById('name');
+const mail = document.getElementById('email');
+const msg = document.getElementById('message');
+
+function newData() {
+  const formData = {
+    userName: userName.value,
+    mail: mail.value,
+    msg: msg.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+form.addEventListener('input', newData);
+
+const storeData = JSON.parse(localStorage.getItem('formData'));
+
