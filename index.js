@@ -11,6 +11,8 @@ function closeMenu() {
 openMenu();
 closeMenu();
 
+// Window pop-up
+
 const data = [
   {
     id: 1,
@@ -105,6 +107,8 @@ modalBtns.forEach((modalBtn) => {
   modalBtn.addEventListener('click', openModal);
 });
 
+// Email lowercase validation
+
 const regularExpression = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*(\+[a-z0-9-]+)?@[a-z0-9-]+(\.[a-z0-9-]+)*$/;
 const emailField = document.querySelector('#mail');
 const getInTouch = document.querySelector('.button-submit');
@@ -118,10 +122,12 @@ getInTouch.addEventListener('click', () => {
   }
 });
 
-const form = document.getElementById('form');
-const userName = document.getElementById('name');
-const mail = document.getElementById('email');
-const msg = document.getElementById('message');
+// Local Storage
+
+const form = document.getElementById('.form');
+const userName = document.getElementById('.name');
+const mail = document.getElementById('.email');
+const msg = document.getElementById('.message');
 function updateValue() {
   const formObject = {
     name: userName.value,
@@ -130,7 +136,7 @@ function updateValue() {
   };
   localStorage.setItem('formObject', JSON.stringify(formObject));
 }
-form.addEventListener('input', updateValue);
+form.addEventListener('input', updateValue());
 const thisObject = JSON.parse(localStorage.getItem('formObject'));
 if (localStorage.getItem('theObject.name') !== '') {
   userName.value = thisObject.name;
