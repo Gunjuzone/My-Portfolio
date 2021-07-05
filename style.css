@@ -20,8 +20,7 @@ body {
   height: 7vh;
   position: fixed;
   width: 100%;
-  z-index: 1;
-}
+ }
 
 .nav-list a {
   color: #fff;
@@ -45,9 +44,11 @@ body {
 .nav-response {
   position: absolute;
   visibility: hidden;
-  height: 108vh;
+  height: 100%;
+  z-index: 1;
   top: 0;
   width: 100%;
+  opacity: 0.9;
   background-color: #3c3a39;
 }
 
@@ -373,6 +374,7 @@ body {
 .nav-response > ul > li:first-child {
   border-bottom: none;
   padding-left: 88%;
+  padding-top: 0%;
 }
 
 .modal {
